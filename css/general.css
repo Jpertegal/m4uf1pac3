@@ -1,0 +1,36 @@
+h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+#img1 {
+    float: left;
+    margin-top: 5vh;
+    margin-left: 10vw;
+}
+
+ul {
+    margin-left: 40vw;
+}
+
+#img2 {
+    float: right;
+    margin-top: -5vh;
+    margin-right: 10vw;
+}
+
+#img3 {
+    float: left;
+    margin-top: 0.1vh;
+    margin-left: 10vw;
+}
+
+.audiot {
+    text-align: center;
+}
+
+div {
+    margin: 36.5vw;
+    margin-top: 2.5vh;
+    margin-bottom: 2vh;
+}

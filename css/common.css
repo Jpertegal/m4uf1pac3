@@ -31,6 +31,7 @@ nav {
     border-top: cornsilk 3px solid;
     border-bottom: cornsilk 3px solid;
     z-index: 3;
+    text-align: center;
 }
 
 nav a {
@@ -46,7 +47,6 @@ body {
 }
 
 main {
-    
     overflow: auto;
     color: white;
     padding: 6vh;
@@ -116,16 +116,15 @@ footer{height: 25vh;} */
 .col-12 {width: 100%;}
 
 header {
-    height: 16.67vh;
+    height: 19vh;
 }
 
 footer {
     height: auto;
-    position: fixed;
+    position: relative;
     bottom: 0;
 }
 
-nav {display:none;}
 main {
     height: auto;
 }
@@ -161,14 +160,12 @@ main {
     .col-sm-10 {width: 83.33%;}
     .col-sm-11 {width: 91.66%;}
     .col-sm-12 {width: 100%;}
+    
     nav {
         display: block;
         height: auto;
     }
     
-    /* header {
-        object-fit: ;
-    } */
 }
   
 /* Medium devices (landscape tablets, 768px and up) */
@@ -186,11 +183,12 @@ main {
     .col-md-11 {width: 91.66%;}
     .col-md-12 {width: 100%;}
     header {
-        height: 16.67vh;
+        height: 19vh;
     }
     nav, footer {
         height: auto;
     }
+
 }
   
 /* Large devices (laptops/desktops, 992px and up) */

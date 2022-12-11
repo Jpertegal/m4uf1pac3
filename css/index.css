@@ -1,7 +1,7 @@
 main img {
-    float: left;
-    margin-left: 5vw;
-    margin-right: 11.5vw;
+    /* float: left; */
+    /* margin-left: 5vw; */
+    margin-right: 6.5vw;
     width: 30vw;
     height: auto;
 }
@@ -12,4 +12,45 @@ aside {
 
 h2 {
     text-decoration: underline;
+}
+
+/*Extra small devices (phones, 600px and down)*/
+@media only screen and (max-width: 600px) {
+    #divimg img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+    #divimg img {
+        width: 100%;
+        height: auto;
+    }
+    
+}
+  
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+    #divimg {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+  
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+    ul {
+        line-height: 5vh;
+    }
 }

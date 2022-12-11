@@ -3,17 +3,19 @@ h2 {
     text-decoration: underline;
 }
 
-#img1 {
+
+
+/* #img1 {
     float: left;
     margin-top: 5vh;
     margin-left: 10vw;
-}
+} */
 
-ul {
+/* ul {
     margin-left: 40vw;
-}
+} */
 
-#img2 {
+/* #img2 {
     float: right;
     margin-top: -5vh;
     margin-right: 10vw;
@@ -23,14 +25,72 @@ ul {
     float: left;
     margin-top: 0.1vh;
     margin-left: 10vw;
-}
+} */
 
-.audiot {
+/* .audiot {
     text-align: center;
-}
+} */
 
-div {
+/* div {
     margin: 36.5vw;
     margin-top: 2.5vh;
     margin-bottom: 2vh;
+} */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #img1, #img3{
+        display: none;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+    #llançament {
+        display: flex;
+        justify-content: center; 
+    }
+    #tema {
+        display: flex;
+        justify-content: center; 
+    }
+    #musica {
+        display: flex;
+        justify-content: center; 
+    }
+    #audiointro {
+        display: flex;
+        justify-content: center; 
+    }
+
+    #img1, #img3{
+        display: none;
+    }
+
+}
+  
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+    #img1, #img3{
+        display: block;
+    }
+
+    #img2 {
+        display: flex;
+        justify-content: center;
+    }
+
+}
+  
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    
+}
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
 }

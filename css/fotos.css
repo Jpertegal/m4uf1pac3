@@ -3,19 +3,29 @@ h2 {
     text-decoration: underline;
 }
 
-.column {
+/* .column {
     float: left;
     width: 32.5%;
     padding: 5px;
     margin-bottom: 4vh;
-}
+} */
 
 h4 {
     padding: 4px;
 }
 
+.column {
+    display: inline-block;
+    /* margin-bottom: 4vh; */
+    padding: 5px;
+}
+
 .personatges figure {
     display: inline-block;
+}
+
+#pers {
+    margin-top: 3vh;
 }
 
 figure img {
@@ -37,4 +47,37 @@ main {
     width: 36vw;
     height: auto;
     padding: 4px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  
+    .column img {
+        width: 30vh;
+        height: auto;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+
+
+}
+  
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+
+}
+  
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    
+}
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
 }
